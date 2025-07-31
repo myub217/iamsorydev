@@ -1,3 +1,4 @@
+// src/Home/components/About/About.tsx
 'use client';
 
 import React from 'react';
@@ -7,13 +8,22 @@ import AboutDescription from './ui/AboutDescription';
 import AboutImage from './ui/AboutImage';
 import AboutQuote from './ui/AboutQuote';
 
+/**
+ * ✅ About.tsx — Section แนะนำตัวสำหรับ JP Visual & Docs
+ * - ครอบด้วย Motion Container
+ * - รองรับ Subcomponents: Title, Description, Image, Quote
+ * - รองรับ accessibility และ animation
+ * - ปรับ Responsive Layout แล้ว
+ */
+
 const About = () => {
   return (
     <section
+      id="about"
       aria-labelledby="about-title"
       className="relative isolate overflow-hidden bg-background text-base-content px-4 sm:px-6 lg:px-8 py-24"
     >
-      {/* Background Blurred Shape or Pattern Slot (Optional) */}
+      {/* 🎨 Optional Background Shape */}
       {/* <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/10 to-secondary/10 blur-3xl opacity-30" /> */}
 
       <motion.div

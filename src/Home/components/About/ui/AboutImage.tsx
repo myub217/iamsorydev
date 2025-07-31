@@ -1,7 +1,7 @@
+// src/Home/components/About/ui/AboutImage.tsx
 'use client';
 
 import { motion } from 'framer-motion';
-import Signature from '@/assets/signature.webp';
 
 const AboutImage = () => {
   return (
@@ -13,7 +13,7 @@ const AboutImage = () => {
       className="pt-6 text-center"
     >
       <img
-        src={Signature}
+        src="/assets/signature.webp" // ✅ โหลดจาก public/
         alt="ลายเซ็นเจ้าป่า JP-System"
         className="mx-auto w-28 sm:w-36 md:w-44 lg:w-48 opacity-80"
         loading="lazy"
