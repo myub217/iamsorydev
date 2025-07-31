@@ -37,4 +37,12 @@ const HeroBackground = ({ className = '' }: HeroBackgroundProps) => (
   </motion.div>
 );
 
+<<<<<<< HEAD
 export default HeroBackground;
+=======
+<<<<<<< HEAD
+export default HeroBackground;
+=======
+export default HeroBackground;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

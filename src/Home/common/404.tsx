@@ -26,4 +26,12 @@ const NotFound: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default NotFound;
+=======
+<<<<<<< HEAD
+export default NotFound;
+=======
+export default NotFound;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

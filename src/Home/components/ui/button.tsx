@@ -77,4 +77,12 @@ export const Button: React.FC<ButtonProps> = ({
       {content}
     </button>
   );
+<<<<<<< HEAD
 };
+=======
+<<<<<<< HEAD
+};
+=======
+};
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

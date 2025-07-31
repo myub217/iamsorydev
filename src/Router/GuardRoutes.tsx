@@ -31,4 +31,12 @@ const GuardRoutes = () => {
   return <Outlet />;
 };
 
+<<<<<<< HEAD
 export default GuardRoutes;
+=======
+<<<<<<< HEAD
+export default GuardRoutes;
+=======
+export default GuardRoutes;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

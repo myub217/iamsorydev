@@ -28,4 +28,12 @@ const LogoutButton: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default LogoutButton;
+=======
+<<<<<<< HEAD
+export default LogoutButton;
+=======
+export default LogoutButton;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

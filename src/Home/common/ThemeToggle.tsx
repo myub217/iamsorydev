@@ -36,4 +36,12 @@ const ThemeToggle: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default ThemeToggle;
+=======
+<<<<<<< HEAD
+export default ThemeToggle;
+=======
+export default ThemeToggle;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

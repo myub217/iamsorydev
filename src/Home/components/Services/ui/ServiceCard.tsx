@@ -30,15 +30,41 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
           alt={altText}
           loading="lazy"
           className="w-full h-full object-cover"
+<<<<<<< HEAD
           onError={e => (e.currentTarget.src = '/fallback.jpg')}
+=======
+<<<<<<< HEAD
+          onError={(e) => (e.currentTarget.src = '/fallback.jpg')}
+=======
+          onError={e => (e.currentTarget.src = '/fallback.jpg')}
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
         />
       </div>
 
       {/* Title */}
+<<<<<<< HEAD
       <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">{title}</h3>
 
       {/* Description */}
       <p className="text-sm text-gray-700 dark:text-gray-300 line-clamp-3 mb-3">{description}</p>
+=======
+<<<<<<< HEAD
+      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
+        {title}
+      </h3>
+
+      {/* Description */}
+      <p className="text-sm text-gray-700 dark:text-gray-300 line-clamp-3 mb-3">
+        {description}
+      </p>
+=======
+      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">{title}</h3>
+
+      {/* Description */}
+      <p className="text-sm text-gray-700 dark:text-gray-300 line-clamp-3 mb-3">{description}</p>
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
 
       {/* Pricing or Coming Soon Note */}
       <div className="mt-auto">
@@ -63,4 +89,12 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   );
 };
 
+<<<<<<< HEAD
 export default ServiceCard;
+=======
+<<<<<<< HEAD
+export default ServiceCard;
+=======
+export default ServiceCard;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

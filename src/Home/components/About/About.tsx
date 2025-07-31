@@ -42,4 +42,8 @@ const About = () => {
   );
 };
 
+<<<<<<< HEAD
 export default About;
+=======
+export default About;
+>>>>>>> 3fcc410 (update)

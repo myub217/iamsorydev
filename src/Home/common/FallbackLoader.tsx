@@ -18,4 +18,12 @@ const FallbackLoader: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default FallbackLoader;
+=======
+<<<<<<< HEAD
+export default FallbackLoader;
+=======
+export default FallbackLoader;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

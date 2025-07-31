@@ -29,4 +29,8 @@ const AboutImage = () => {
   );
 };
 
+<<<<<<< HEAD
 export default AboutImage;
+=======
+export default AboutImage;
+>>>>>>> 3fcc410 (update)

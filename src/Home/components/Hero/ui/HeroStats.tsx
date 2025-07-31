@@ -48,4 +48,12 @@ const HeroStats: FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default HeroStats;
+=======
+<<<<<<< HEAD
+export default HeroStats;
+=======
+export default HeroStats;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

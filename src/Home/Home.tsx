@@ -22,11 +22,21 @@ const Home: React.FC = () => {
       </section>
 
       {/* ✅ Services Section */}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <section id="services" aria-labelledby="services-title" className="scroll-mt-20 py-16 md:py-24 bg-base-100">
+=======
+>>>>>>> b269264 (update)
       <section
         id="services"
         aria-labelledby="services-title"
         className="scroll-mt-20 py-16 md:py-24 bg-base-100"
       >
+<<<<<<< HEAD
+=======
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
         <SectionContainer>
           <Services />
         </SectionContainer>
@@ -40,11 +50,21 @@ const Home: React.FC = () => {
       </section>
 
       {/* ✅ Portfolio Section */}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <section id="portfolio" aria-labelledby="portfolio-title" className="scroll-mt-20 py-16 md:py-24 bg-base-100">
+=======
+>>>>>>> b269264 (update)
       <section
         id="portfolio"
         aria-labelledby="portfolio-title"
         className="scroll-mt-20 py-16 md:py-24 bg-base-100"
       >
+<<<<<<< HEAD
+=======
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
         <SectionContainer>
           <PortfolioGallery />
         </SectionContainer>
@@ -53,4 +73,12 @@ const Home: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Home;
+=======
+<<<<<<< HEAD
+export default Home;
+=======
+export default Home;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

@@ -37,4 +37,12 @@ const PortfolioCTA: React.FC<PortfolioCTAProps> = ({
   );
 };
 
+<<<<<<< HEAD
 export default PortfolioCTA;
+=======
+<<<<<<< HEAD
+export default PortfolioCTA;
+=======
+export default PortfolioCTA;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

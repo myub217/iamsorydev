@@ -53,4 +53,12 @@ const SocialIcons: FC = () => (
   </div>
 );
 
+<<<<<<< HEAD
 export default SocialIcons;
+=======
+<<<<<<< HEAD
+export default SocialIcons;
+=======
+export default SocialIcons;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

@@ -38,4 +38,8 @@ const AppRouter = () => (
   </BrowserRouter>
 );
 
+<<<<<<< HEAD
 export default AppRouter;
+=======
+export default AppRouter;
+>>>>>>> 3fcc410 (update)

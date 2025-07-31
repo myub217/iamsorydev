@@ -1,3 +1,35 @@
+<<<<<<< HEAD
+import { FC } from 'react';
+import { FaLine, FaInstagram, FaEnvelope } from 'react-icons/fa';
+=======
+<<<<<<< HEAD
+import { FC } from "react";
+import { FaLine, FaInstagram, FaEnvelope } from "react-icons/fa";
+>>>>>>> b269264 (update)
+
+const socialLinks = [
+  {
+    href: 'https://line.me/ti/p/@462FQFC',
+    label: 'LINE',
+    text: 'LINE: @462FQFC',
+    icon: <FaLine className="text-lg text-primary" aria-hidden="true" />,
+  },
+  {
+    href: 'https://www.instagram.com/jpsystem.official',
+    label: 'Instagram',
+    text: '@jpsystem.official',
+    icon: <FaInstagram className="text-lg text-primary" aria-hidden="true" />,
+  },
+  {
+<<<<<<< HEAD
+    href: 'mailto:contact@jpsystem.dev',
+    label: 'Email',
+    text: 'contact@jpsystem.dev',
+=======
+    href: "mailto:contact@jpsystem.dev",
+    label: "Email",
+    text: "contact@jpsystem.dev",
+=======
 import { FC } from 'react';
 import { FaLine, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
@@ -18,6 +50,8 @@ const socialLinks = [
     href: 'mailto:contact@jpsystem.dev',
     label: 'Email',
     text: 'contact@jpsystem.dev',
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
     icon: <FaEnvelope className="text-lg text-primary" aria-hidden="true" />,
   },
 ];
@@ -55,4 +89,12 @@ const Footer: FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Footer;
+=======
+<<<<<<< HEAD
+export default Footer;
+=======
+export default Footer;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

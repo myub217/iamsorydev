@@ -38,4 +38,12 @@ const ScrollProgress: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default ScrollProgress;
+=======
+<<<<<<< HEAD
+export default ScrollProgress;
+=======
+export default ScrollProgress;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

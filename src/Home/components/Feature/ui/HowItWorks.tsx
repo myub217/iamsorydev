@@ -63,4 +63,12 @@ const HowItWorks: FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default HowItWorks;
+=======
+<<<<<<< HEAD
+export default HowItWorks;
+=======
+export default HowItWorks;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

@@ -24,12 +24,22 @@
     @apply transition-colors duration-200;
   }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  h1, h2, h3, h4, h5, h6 {
+=======
+>>>>>>> b269264 (update)
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
+<<<<<<< HEAD
+=======
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
     @apply font-bold text-base-content;
   }
 
@@ -105,4 +115,12 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

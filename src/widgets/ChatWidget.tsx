@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+// src/widgets/ChatWidget/TawkScript.tsx
+>>>>>>> b269264 (update)
 'use client';
 
 import { useEffect } from 'react';
 
+<<<<<<< HEAD
 /**
  * ✅ ChatWidget.tsx — Tawk.to Integration สำหรับ JP Visual & Docs
  *
@@ -15,6 +20,8 @@ const TAWK_PROPERTY_ID = '688b41edee33f51926870e9f';
 const TAWK_WIDGET_ID = '1j1g0o1nq';
 const TAWK_SRC = `https://embed.tawk.to/${TAWK_PROPERTY_ID}/${TAWK_WIDGET_ID}`;
 
+=======
+>>>>>>> b269264 (update)
 declare global {
   interface Window {
     Tawk_API?: {
@@ -30,6 +37,7 @@ declare global {
 
 const TawkScript = () => {
   useEffect(() => {
+<<<<<<< HEAD
     if (typeof window === 'undefined') return;
 
     const injectTawk = () => {
@@ -70,6 +78,27 @@ const TawkScript = () => {
 
     return () => {
       clearTimeout(timeout);
+=======
+    if (typeof window === 'undefined' || document.getElementById('tawk-script')) return;
+
+    window.Tawk_LoadStart = new Date();
+    window.Tawk_API = window.Tawk_API || {};
+    window.Tawk_API.visitor = {
+      name: 'เจ้าป่า',
+      email: 'jp.system.webdev@gmail.com',
+    };
+
+    const script = document.createElement('script');
+    script.id = 'tawk-script';
+    script.src = 'https://embed.tawk.to/688b41edee33f51926870e9f/1j1g0o1nq';
+    script.async = true;
+    script.charset = 'UTF-8';
+    script.setAttribute('crossorigin', '*');
+
+    document.body.appendChild(script);
+
+    return () => {
+>>>>>>> b269264 (update)
       const existing = document.getElementById('tawk-script');
       if (existing) existing.remove();
     };

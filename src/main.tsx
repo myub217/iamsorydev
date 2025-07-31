@@ -19,4 +19,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <AppRouter />
     </Suspense>
   </React.StrictMode>
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> 3fcc410 (update)

@@ -39,4 +39,12 @@ const Awards: FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Awards;
+=======
+<<<<<<< HEAD
+export default Awards;
+=======
+export default Awards;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

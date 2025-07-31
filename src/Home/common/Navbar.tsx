@@ -22,7 +22,19 @@ const Navbar: React.FC = () => {
   return (
     <>
       <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-800 transition-colors duration-300">
+<<<<<<< HEAD
         <nav className="container navbar px-4 py-2" role="navigation" aria-label="Main navigation">
+=======
+<<<<<<< HEAD
+        <nav
+          className="container navbar px-4 py-2"
+          role="navigation"
+          aria-label="Main navigation"
+        >
+=======
+        <nav className="container navbar px-4 py-2" role="navigation" aria-label="Main navigation">
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
           {/* ✅ Logo */}
           <div className="flex-1">
             <Link
@@ -79,4 +91,12 @@ const Navbar: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Navbar;
+=======
+<<<<<<< HEAD
+export default Navbar;
+=======
+export default Navbar;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

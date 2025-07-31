@@ -30,4 +30,12 @@ const FilterButton: React.FC<FilterButtonProps> = ({
   );
 };
 
+<<<<<<< HEAD
 export default FilterButton;
+=======
+<<<<<<< HEAD
+export default FilterButton;
+=======
+export default FilterButton;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

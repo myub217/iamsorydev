@@ -23,4 +23,12 @@ const AboutQuote = () => {
   );
 };
 
+<<<<<<< HEAD
 export default AboutQuote;
+=======
+<<<<<<< HEAD
+export default AboutQuote;
+=======
+export default AboutQuote;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

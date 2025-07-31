@@ -13,7 +13,25 @@ type SectionContainerProps = {
 };
 
 const SectionContainer = ({ children }: SectionContainerProps) => {
+<<<<<<< HEAD
   return <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">{children}</div>;
 };
 
 export default SectionContainer;
+=======
+<<<<<<< HEAD
+  return (
+    <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {children}
+    </div>
+  );
+};
+
+export default SectionContainer;
+=======
+  return <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">{children}</div>;
+};
+
+export default SectionContainer;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

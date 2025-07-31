@@ -19,7 +19,18 @@ const Feature = () => {
           aria-labelledby="whyus-heading"
           className="mb-10 text-center"
         >
+<<<<<<< HEAD
           <h2 id="whyus-heading" className="text-3xl sm:text-4xl font-bold text-white">
+=======
+<<<<<<< HEAD
+          <h2
+            id="whyus-heading"
+            className="text-3xl sm:text-4xl font-bold text-white"
+          >
+=======
+          <h2 id="whyus-heading" className="text-3xl sm:text-4xl font-bold text-white">
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
             ทำไมต้องเลือกเรา?
           </h2>
         </motion.header>
@@ -38,4 +49,12 @@ const Feature = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Feature;
+=======
+<<<<<<< HEAD
+export default Feature;
+=======
+export default Feature;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

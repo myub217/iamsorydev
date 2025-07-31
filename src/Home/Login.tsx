@@ -63,11 +63,21 @@ const Login = () => {
         />
 
         {error && (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+          <div className="flex items-center text-sm text-error gap-2" role="alert" data-testid="login-error">
+=======
+>>>>>>> b269264 (update)
           <div
             className="flex items-center text-sm text-error gap-2"
             role="alert"
             data-testid="login-error"
           >
+<<<<<<< HEAD
+=======
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
             <AlertCircle size={16} />
             <span>{error}</span>
           </div>
@@ -87,4 +97,12 @@ const Login = () => {
 };
 
 Login.displayName = 'Login';
+<<<<<<< HEAD
 export default Login;
+=======
+<<<<<<< HEAD
+export default Login;
+=======
+export default Login;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

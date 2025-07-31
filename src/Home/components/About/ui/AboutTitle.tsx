@@ -19,4 +19,12 @@ const AboutTitle = () => {
   );
 };
 
+<<<<<<< HEAD
 export default AboutTitle;
+=======
+<<<<<<< HEAD
+export default AboutTitle;
+=======
+export default AboutTitle;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

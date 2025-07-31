@@ -58,4 +58,12 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
   );
 };
 
+<<<<<<< HEAD
 export default MobileMenu;
+=======
+<<<<<<< HEAD
+export default MobileMenu;
+=======
+export default MobileMenu;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

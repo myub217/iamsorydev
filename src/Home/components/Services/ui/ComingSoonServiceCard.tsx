@@ -51,4 +51,12 @@ const ComingSoonServiceCard: React.FC<ComingSoonProps> = ({
   );
 };
 
+<<<<<<< HEAD
 export default ComingSoonServiceCard;
+=======
+<<<<<<< HEAD
+export default ComingSoonServiceCard;
+=======
+export default ComingSoonServiceCard;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

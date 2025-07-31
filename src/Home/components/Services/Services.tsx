@@ -6,8 +6,18 @@ import ServiceCard from './ui/ServiceCard';
 import ComingSoonServiceCard from './ui/ComingSoonServiceCard';
 
 const Services: React.FC = () => {
+<<<<<<< HEAD
   const availableServices = jpServices.filter(service => service.available);
   const comingSoonServices = jpServices.filter(service => !service.available);
+=======
+<<<<<<< HEAD
+  const availableServices = jpServices.filter((service) => service.available);
+  const comingSoonServices = jpServices.filter((service) => !service.available);
+=======
+  const availableServices = jpServices.filter(service => service.available);
+  const comingSoonServices = jpServices.filter(service => !service.available);
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
 
   return (
     <section
@@ -33,7 +43,15 @@ const Services: React.FC = () => {
           </h3>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
             {availableServices.length > 0 ? (
+<<<<<<< HEAD
               availableServices.map(service => (
+=======
+<<<<<<< HEAD
+              availableServices.map((service) => (
+=======
+              availableServices.map(service => (
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
                 <ServiceCard
                   key={service.id}
                   title={service.title}
@@ -67,7 +85,15 @@ const Services: React.FC = () => {
               บริการที่จะเปิดตัวเร็ว ๆ นี้
             </h3>
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
+<<<<<<< HEAD
               {comingSoonServices.map(service => (
+=======
+<<<<<<< HEAD
+              {comingSoonServices.map((service) => (
+=======
+              {comingSoonServices.map(service => (
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
                 <ComingSoonServiceCard
                   key={service.id}
                   title={service.title}
@@ -85,4 +111,12 @@ const Services: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Services;
+=======
+<<<<<<< HEAD
+export default Services;
+=======
+export default Services;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

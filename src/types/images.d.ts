@@ -23,4 +23,12 @@ declare module '*.jpg' {
 declare module '*.jpeg' {
   const value: string;
   export default value;
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

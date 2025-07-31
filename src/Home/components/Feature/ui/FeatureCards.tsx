@@ -63,4 +63,12 @@ const FeatureCards: FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default FeatureCards;
+=======
+<<<<<<< HEAD
+export default FeatureCards;
+=======
+export default FeatureCards;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

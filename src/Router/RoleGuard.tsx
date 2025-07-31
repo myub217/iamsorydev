@@ -32,4 +32,12 @@ const RoleGuard = ({ allowedRoles, userRole }: RoleGuardProps) => {
   return <Outlet />;
 };
 
+<<<<<<< HEAD
 export default RoleGuard;
+=======
+<<<<<<< HEAD
+export default RoleGuard;
+=======
+export default RoleGuard;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

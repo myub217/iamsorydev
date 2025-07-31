@@ -37,4 +37,12 @@ const BackToTop: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default BackToTop;
+=======
+<<<<<<< HEAD
+export default BackToTop;
+=======
+export default BackToTop;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

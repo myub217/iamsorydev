@@ -19,4 +19,12 @@ const FallbackLoading: React.FC = () => (
   </div>
 );
 
+<<<<<<< HEAD
 export default FallbackLoading;
+=======
+<<<<<<< HEAD
+export default FallbackLoading;
+=======
+export default FallbackLoading;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

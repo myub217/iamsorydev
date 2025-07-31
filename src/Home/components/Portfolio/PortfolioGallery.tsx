@@ -22,7 +22,17 @@ const PortfolioGallery = () => {
       role="region"
       aria-label="Portfolio Section"
     >
+<<<<<<< HEAD
       <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">ผลงานของเรา</h2>
+=======
+<<<<<<< HEAD
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
+        ผลงานของเรา
+      </h2>
+=======
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">ผลงานของเรา</h2>
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
 
       <PortfolioFilter
         categories={['Website', 'Dashboard', 'Landing Page', 'Mobile App', 'Graphic']}
@@ -62,4 +72,12 @@ const PortfolioGallery = () => {
   );
 };
 
+<<<<<<< HEAD
 export default PortfolioGallery;
+=======
+<<<<<<< HEAD
+export default PortfolioGallery;
+=======
+export default PortfolioGallery;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

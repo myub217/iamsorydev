@@ -116,4 +116,12 @@ export const jpServices: readonly ServiceType[] = [
     available: false,
     comingSoonNote: 'ติดตามเร็ว ๆ นี้',
   },
+<<<<<<< HEAD
 ] as const;
+=======
+<<<<<<< HEAD
+] as const;
+=======
+] as const;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

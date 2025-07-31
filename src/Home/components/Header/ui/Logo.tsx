@@ -1,7 +1,17 @@
 // src/Home/components/Header/ui/Logo.tsx
 
+<<<<<<< HEAD
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
+=======
+<<<<<<< HEAD
+import { FC } from "react";
+import { Link } from "react-router-dom";
+=======
+import { FC } from 'react';
+import { Link } from 'react-router-dom';
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
 
 const Logo: FC = () => {
   return (
@@ -17,4 +27,12 @@ const Logo: FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Logo;
+=======
+<<<<<<< HEAD
+export default Logo;
+=======
+export default Logo;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

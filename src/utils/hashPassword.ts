@@ -6,4 +6,12 @@ export const hashPassword = async (plain: string): Promise<string> => {
 
 export const comparePassword = async (plain: string, hash: string): Promise<boolean> => {
   return await bcrypt.compare(plain, hash);
+<<<<<<< HEAD
 };
+=======
+<<<<<<< HEAD
+};
+=======
+};
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

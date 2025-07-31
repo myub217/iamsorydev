@@ -64,4 +64,12 @@ const Secret = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Secret;
+=======
+<<<<<<< HEAD
+export default Secret;
+=======
+export default Secret;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)

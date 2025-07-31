@@ -74,4 +74,12 @@ const Hero = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Hero;
+=======
+<<<<<<< HEAD
+export default Hero;
+=======
+export default Hero;
+>>>>>>> 3fcc410 (update)
+>>>>>>> b269264 (update)
