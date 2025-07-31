@@ -1,0 +1,108 @@
+/* ✅ index.css — Tailwind + DaisyUI Styling Layer for JP Visual & Docs */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === 🌐 GLOBAL BASE STYLES === */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-base-100 text-base-content font-inter;
+  }
+
+  ::selection {
+    @apply bg-primary text-primary-content;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-base-content;
+  }
+
+  button {
+    @apply focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply bg-base-100 border border-base-300 rounded-lg px-4 py-2 text-base-content placeholder-base-content/60;
+  }
+}
+
+/* === 🧱 COMPONENT UTILITIES === */
+@layer components {
+  .btn-primary {
+    @apply btn btn-primary rounded-xl px-6 py-2 font-semibold shadow-md transition duration-200;
+  }
+
+  .btn-outline-primary {
+    @apply btn btn-outline border-primary text-primary hover:bg-primary hover:text-white transition duration-200;
+  }
+
+  .btn-secondary {
+    @apply btn btn-secondary rounded-xl px-6 py-2 font-medium;
+  }
+
+  .card-glass {
+    @apply bg-base-100/70 backdrop-blur-lg shadow-xl border border-base-300 rounded-2xl;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-center mb-6 md:mb-10 text-base-content;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text;
+  }
+
+  .badge-tag {
+    @apply inline-block px-3 py-1 text-sm rounded-full bg-secondary text-white;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 border border-base-300 rounded-lg bg-base-100 text-base-content placeholder-base-content/60 focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  .glass-sm {
+    @apply bg-base-100/40 backdrop-blur-sm border border-base-200 rounded-lg p-4 shadow-md;
+  }
+}
+
+/* === 📱 RESPONSIVE LAYOUT UTILITIES === */
+@layer utilities {
+  .container {
+    @apply w-full px-4 mx-auto max-w-7xl;
+  }
+
+  .section-spacing {
+    @apply py-12 md:py-20;
+  }
+
+  .debug {
+    outline: 1px solid red;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

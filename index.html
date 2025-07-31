@@ -1,0 +1,71 @@
+<!-- ✅ index.html — Production-Ready Template for JP VISUAL & DOCS -->
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth" data-theme="dark">
+  <head>
+    <!-- ✅ Charset & Viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- ✅ Preconnect & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- ✅ Title & Meta -->
+    <title>JP VISUAL & DOCS | Modern Web Development by เจ้าป่า</title>
+    <meta name="application-name" content="JP VISUAL & DOCS" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="JP VISUAL & DOCS พัฒนาเว็บไซต์คุณภาพสูงด้วย React + TypeScript + Tailwind CSS โดยเจ้าป่า dev." />
+    <meta name="keywords" content="JP VISUAL & DOCS, React, TypeScript, TailwindCSS, DaisyUI, Web Development, เจ้าป่า, Dev Team" />
+    <meta name="author" content="เจ้าป่า | JP VISUAL & DOCS" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ✅ Open Graph -->
+    <meta property="og:title" content="JP VISUAL & DOCS | Modern Web Development by เจ้าป่า" />
+    <meta property="og:description" content="สร้างเว็บไซต์ทันสมัย โค้ดสะอาดระดับ Production โดย JP VISUAL & DOCS" />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:url" content="https://jpvisualdocs.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="th_TH" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="JP VISUAL & DOCS | Web Starter Template by เจ้าป่า" />
+    <meta name="twitter:description" content="Kickstart your next project with JP VISUAL & DOCS modern tech stack by เจ้าป่า Dev." />
+    <meta name="twitter:image" content="/og-image.png" />
+    <meta name="twitter:site" content="@jpvisualdocs" />
+    <meta name="twitter:creator" content="@jaopa.dev" />
+
+    <!-- ✅ Apple PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="JP VISUAL & DOCS" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- ✅ Icons -->
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials" />
+
+    <!-- ✅ Preload Critical Assets -->
+    <link rel="preload" as="image" href="/og-image.png" />
+    <link rel="preload" as="image" href="/logo.webp" />
+  </head>
+
+  <body class="bg-base-100 text-base-content font-inter antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
