@@ -4,18 +4,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Layout from '@/Layout/Layout';
 import Home from '@/Home/Home';
-import Secret from '@/Home/Secret';
 import Login from '@/Home/Login';
-import CustomerAssessmentForm from '@/Home/CustomerAssessmentForm';
+import Secret from '@/Home/Secret';
 import NotFound from '@/Home/common/404';
+import CustomerAssessmentForm from '@/Home/CustomerAssessmentForm';
 import GuardRoutes from './GuardRoutes';
 
 /**
- * ✅ AppRouter
- * - ระบบ Routing หลักของเว็บไซต์
- * - รองรับ Layout ครอบทุกหน้า
- * - แยกเส้นทาง Public / Protected
- * - จัดการ Fallback 404
+ * 🎯 AppRouter
+ * - ระบบจัดการเส้นทางทั้งหมดของเว็บไซต์ JP Visual & Docs
+ * - แยก Public, Protected, และ Fallback routes
+ * - ทุกหน้าอยู่ภายใต้ Layout
  */
 const AppRouter = () => (
   <BrowserRouter basename="/">

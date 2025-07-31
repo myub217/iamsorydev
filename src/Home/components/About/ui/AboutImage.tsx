@@ -15,12 +15,14 @@ const AboutImage = () => {
       <img
         src={Signature}
         alt="ลายเซ็นเจ้าป่า JP-System"
-        className="mx-auto w-32 sm:w-40 md:w-48 opacity-80"
+        className="mx-auto w-28 sm:w-36 md:w-44 lg:w-48 opacity-80"
         loading="lazy"
         decoding="async"
-        fetchPriority="low" // ✅ แก้จาก fetchpriority เป็น fetchPriority
+        fetchPriority="low"
+        width={192}
+        height={64}
       />
-      <figcaption className="mt-3 text-xs leading-tight text-base-content/50">
+      <figcaption className="mt-2 text-xs sm:text-sm text-base-content/50 leading-tight">
         By เจ้าป่า ・ JP Visual & Docs
       </figcaption>
     </motion.figure>

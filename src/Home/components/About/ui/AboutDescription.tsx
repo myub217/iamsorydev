@@ -10,7 +10,7 @@ const AboutDescription = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
       viewport={{ once: true }}
-      className="text-center space-y-6 text-base md:text-lg text-gray-700 dark:text-gray-300"
+      className="mx-auto max-w-3xl px-4 text-center space-y-6 text-base md:text-lg text-gray-700 dark:text-gray-300"
     >
       <blockquote
         id="about-description"

@@ -1,16 +1,16 @@
-// ✅ src/main.tsx — Production-ready with Suspense fallback and externalized FallbackLoading
+// ✅ src/main.tsx — Production-ready entry point for JP Visual & Docs
 
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import AppRouter from './Router/AppRouter';
 import './index.css';
-import FallbackLoading from '@/Home/common/FallbackLoading'; // ✅ ใช้ component แยกไฟล์ตามโครงสร้างจริง
+import FallbackLoading from '@/Home/common/FallbackLoading'; // ✅ fallback แยกไว้สำหรับ Suspense
 
 /**
- * 🎯 Entry point หลักของแอป JP Visual & Docs
- * - ใช้ React 18 concurrent renderer
- * - ครอบด้วย <Suspense> รองรับ dynamic import
- * - รองรับ fallback UI ระหว่าง lazy loading
+ * 🎯 จุดเริ่มต้นของแอป JP Visual & Docs
+ * - ใช้ React 18 Concurrent Renderer
+ * - ใช้ <Suspense> เพื่อรองรับ lazy import
+ * - รองรับ fallback UI ระหว่างการโหลด components
  */
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
